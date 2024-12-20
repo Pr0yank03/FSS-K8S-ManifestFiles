@@ -6,14 +6,14 @@ spec:
   replicas: 3 
   selector: 
     matchLabels:
-      app: fss-DB
+      app: fss-db
   template:
     metadata:
       labels:
         app: fss 
     spec: 
       containers:
-        - name: fss-DB 
+        - name: fss-db
           image: muralisocial123/fss-we-ap:latest 
           ports:
             - containerPort: 80
