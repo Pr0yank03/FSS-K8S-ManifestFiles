@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: fss 
+        app: fss-db
     spec: 
       containers:
         - name: fss-db
